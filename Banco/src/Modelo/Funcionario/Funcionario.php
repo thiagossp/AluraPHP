@@ -1,15 +1,15 @@
 <?php
 
-namespace Alura\Banco\Modelo;
+namespace Alura\Banco\Modelo\Funcionario;
 
-class Funcionario extends Pessoa {
+use Alura\Banco\Modelo\{Pessoa, CPF};
+
+abstract class Funcionario extends Pessoa {
     
-    private string $cargo;
     private float $salario;
     
-    public function __construct(string $nome, CPF $cpf, string $cargo, float $salario) {
-        parent::__construct($nome, $cpf);
-        $this->cargo = $cargo;        
+    public function __construct(string $nome, CPF $cpf, float $salario) {
+        parent::__construct($nome, $cpf);       
         $this->salario = $salario;
     }
     
