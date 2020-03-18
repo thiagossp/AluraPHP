@@ -19,4 +19,8 @@ $corrente->saca(100);
 echo "Saldo poupança R$" . $poupanca->recuperaSaldo() . PHP_EOL;
 echo "Saldo conta corrente R$" .$corrente->recuperaSaldo() . PHP_EOL;
 
+echo $endereco . PHP_EOL;
+
+echo $endereco->rua;
+
 ?>
