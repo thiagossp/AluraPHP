@@ -1,0 +1,12 @@
+{
+    "name": "thiagosp/buscador-cursos-alura",
+    "description": "Projeto do curso de PHP e Composer da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Thiago da Silva Pinto",
+            "email": "email.thiagosp@gmail.com"
+        }
+    ],
+    "require": {}
+}
