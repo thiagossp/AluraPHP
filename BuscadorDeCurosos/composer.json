@@ -11,6 +11,11 @@
     "require": {
         "guzzlehttp/guzzle": "^6.5",
         "symfony/dom-crawler": "^4.2",
-        "ymfony/css-selector": "^4.4"
+        "symfony/css-selector": "^5.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Alura\\BuscadorDeCursos\\" : "src/"
+        }
     }
 }
