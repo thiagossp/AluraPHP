@@ -11,13 +11,4 @@ Thumbs.db
 Desktop.ini
 
 # ignore Composer downloads
-/vendor/*
-
-# keep some hiddens
-!.htaccess
-!/.gitignore
-<<<<<<< HEAD
-!/.travis.yml
-=======
-!/.travis.yml
->>>>>>> e70d3699f8597de2e49e213a9252b4a853d116df
+#/vendor/*
