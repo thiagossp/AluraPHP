@@ -11,4 +11,4 @@ Thumbs.db
 Desktop.ini
 
 # ignore Composer downloads
-/vendor
+/BuscadorDeCursos/vendor
